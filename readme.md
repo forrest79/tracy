@@ -8,6 +8,17 @@
 
  <!---->
 
+Remote bars
+-----------
+
+Remote bars renders Tracy bars not to a web page, but to a separate browser tab or Chrome Dev tab. This allows also using bars for non-HTML requests and cli.
+
+[![Watch the video how remote bars work](https://github.com/forrest79/tracy/raw/master/remote-bars.gif)](https://www.youtube.com/watch?v=QlfuULJbgFw)
+
+[Watch the video how remote bars work on YouTube](https://www.youtube.com/watch?v=ELMyJ9pygCk)
+
+For more information and installation instructions please open some of the branch named `remote-bars-vX.Y.Z`, that contains updated fork for the version `X.Y.Z`.
+
 Introduction
 ------------
 
