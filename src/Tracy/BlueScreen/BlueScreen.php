@@ -604,4 +604,15 @@ class BlueScreen
 
 		return [$generators, $fibers];
 	}
+
+
+	/********************* remote ****************f*79**/
+
+
+	public function remoteRender(\Throwable $exception): void
+	{
+		Debugger::remoteAdd(Helpers::capture(function () use ($exception) {
+			$this->renderTemplate($exception, __DIR__ . '/assets/page.phtml', false);
+		}));
+	}
 }
